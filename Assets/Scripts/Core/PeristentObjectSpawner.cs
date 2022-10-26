@@ -8,7 +8,7 @@ namespace RPG.Core
 
         static bool hasSpawned = false;
 
-        private void Awake()
+        private void Start()
         {
             if (hasSpawned) return;
 
