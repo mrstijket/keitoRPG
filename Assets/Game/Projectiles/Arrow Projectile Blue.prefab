@@ -53,11 +53,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6873162364603826811, guid: 1bb49403628dd324ca7d731d04b18382, type: 3}
       propertyPath: m_Name
-      value: ArrowProjectile Blue
+      value: Arrow Projectile Blue
       objectReference: {fileID: 0}
     - target: {fileID: 7721715284815859744, guid: 1bb49403628dd324ca7d731d04b18382, type: 3}
       propertyPath: m_Parameters.colorGradient.ctime0
-      value: 45875
+      value: 58982
       objectReference: {fileID: 0}
     - target: {fileID: 7721715284815859744, guid: 1bb49403628dd324ca7d731d04b18382, type: 3}
       propertyPath: m_Parameters.colorGradient.key0.b
@@ -75,5 +75,9 @@ PrefabInstance:
       propertyPath: m_Parameters.colorGradient.key1.a
       value: 0.627451
       objectReference: {fileID: 0}
+    - target: {fileID: 8778935849446059379, guid: 1bb49403628dd324ca7d731d04b18382, type: 3}
+      propertyPath: hitEffect
+      value: 
+      objectReference: {fileID: 4581129046029746670, guid: 69801453e8326c24a9e52728facade85, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bb49403628dd324ca7d731d04b18382, type: 3}
