@@ -20,7 +20,12 @@ namespace RPG.Core
         private void Die()
         {
             if (isDead) return;
-
+            CapsuleCollider capsuleCollider = GetComponent<CapsuleCollider>();
+            if (capsuleCollider != null)
+            {
+                capsuleCollider.enabled = false;
+            }
+                
             isDead = true;
             GetComponent<Animator>().SetTrigger("die");
             GetComponent<ActionScheduler>().CancelCurrentAction();
