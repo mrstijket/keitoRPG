@@ -4,6 +4,7 @@ using UnityEngine.AI;
 using RPG.Saving;
 using System.Collections.Generic;
 using RPG.Attributes;
+using System;
 
 namespace RPG.Movement
 {
@@ -51,7 +52,7 @@ namespace RPG.Movement
             GetComponent<Animator>().SetFloat("forwardSpeed", speed);
         }
 
-        [System.Serializable]
+        [Serializable]
         struct MoverSaveData
         {
             public SerializableVector3 position;

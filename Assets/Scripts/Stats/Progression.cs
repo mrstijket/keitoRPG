@@ -44,7 +44,7 @@ namespace RPG.Stats
             }
         }
 
-        [System.Serializable]
+        [Serializable]
         class ProgressionCharacterClass
         {
             public CharacterClass characterClass;
@@ -52,7 +52,7 @@ namespace RPG.Stats
             //public float[] health;
         }
 
-        [System.Serializable]
+        [Serializable]
         class ProgressionStat
         {
             public Stat stat;

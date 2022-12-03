@@ -1,8 +1,9 @@
 using UnityEngine;
+using System;
 
 namespace RPG.Saving
 {
-    [System.Serializable]
+    [Serializable]
     public class SerializableVector3
     {
         float x, y, z;
