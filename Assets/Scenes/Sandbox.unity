@@ -2521,6 +2521,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 465096, guid: f65a7bee03bbc4542a4af2c67922b549, type: 3}
   m_PrefabInstance: {fileID: 1176383328}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1230681445 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2775015616989021688, guid: b295d6c8e1d2d474091685914fe148ad, type: 3}
+  m_PrefabInstance: {fileID: 8110573920785423062}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1246703355
 GameObject:
   m_ObjectHideFlags: 0
@@ -4803,6 +4808,18 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0.040097468
       objectReference: {fileID: 0}
+    - target: {fileID: 8110573919203391799, guid: b295d6c8e1d2d474091685914fe148ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110573919203391799, guid: b295d6c8e1d2d474091685914fe148ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -13.486
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110573919203391799, guid: b295d6c8e1d2d474091685914fe148ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.058
+      objectReference: {fileID: 0}
     - target: {fileID: 8110573919540032333, guid: b295d6c8e1d2d474091685914fe148ad, type: 3}
       propertyPath: m_Intensity
       value: 1
@@ -4902,6 +4919,18 @@ PrefabInstance:
     - target: {fileID: 8110573921180583688, guid: b295d6c8e1d2d474091685914fe148ad, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0.040097464
+      objectReference: {fileID: 0}
+    - target: {fileID: 8792504966620415602, guid: b295d6c8e1d2d474091685914fe148ad, type: 3}
+      propertyPath: camTarget
+      value: 
+      objectReference: {fileID: 1230681445}
+    - target: {fileID: 8792504966620415602, guid: b295d6c8e1d2d474091685914fe148ad, type: 3}
+      propertyPath: targetCam
+      value: 
+      objectReference: {fileID: 410148319}
+    - target: {fileID: 8792504966620415602, guid: b295d6c8e1d2d474091685914fe148ad, type: 3}
+      propertyPath: rotationSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b295d6c8e1d2d474091685914fe148ad, type: 3}
